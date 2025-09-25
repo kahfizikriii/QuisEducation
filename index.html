@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuis Edukasi</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="login-container" class="container active">
+        <div class="card">
+            <h2>Selamat Datang!</h2>
+            <p>Silakan masuk untuk memulai kuis.</p><br>
+            <p>Jangan lupa membaca Bismillah</p>
+            <div class="input-group">
+                <input type="text" id="username" placeholder="Nama Pengguna" required>
+            </div>
+            <button id="login-btn">Mulai Kuis</button>
+        </div>
+    </div>
+
+    <div id="quiz-container" class="container">
+        <div class="card quiz-card">
+            <h2 id="question-text"></h2>
+            <div id="answers-container" class="answers-grid"></div>
+            <div id="quiz-status">
+                <p>Pertanyaan <span id="current-question-number">1</span> dari <span id="total-questions">10</span></p>
+                <div class="progress-bar-container">
+                    <div id="progress-bar" class="progress-bar"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="result-container" class="container">
+        <div class="card">
+            <h2>Hasil Kuis</h2>
+            <p>Skor Anda: <span id="score">0</span> dari 10</p>
+            <p>Jangan nyerah terus semangat untuk belajar!</p>
+            <button id="restart-btn">Mulai Lagi</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
