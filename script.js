@@ -18,54 +18,54 @@ document.addEventListener('DOMContentLoaded', () => {
     // Data kuis contoh (ganti dengan data Anda sendiri)
     const questions = [
         {
-            question: "Apa ibu kota dari negara Jepang?",
-            answers: ["Beijing", "Seoul", "Tokyo", "Bangkok"],
-            correct: "Tokyo"
+            question: "Berapakah hasil dari 245 + 138?",
+            answers: ["393", "483", "383", "372"],
+            correct: "383"
         },
         {
-            question: "Berapa jumlah planet di tata surya?",
-            answers: ["7", "8", "9", "10"],
-            correct: "8"
+            question: "Pak Ali memiliki 5 kotak pensil. Setiap kotak berisi 12 pensil. Berapakah jumlah total pensil Pak Ali?",
+            answers: ["60", "72", "17", "50"],
+            correct: "60"
         },
         {
-            question: "Siapa penemu lampu pijar?",
-            answers: ["Nikola Tesla", "Thomas Edison", "Albert Einstein", "Isaac Newton"],
-            correct: "Thomas Edison"
+            question: "Sebuah segitiga memiliki panjang sisi a=6 cm, b=8 cm, dan c=10 cm. Berapakah keliling segitiga tersebut?",
+            answers: ["24 cm", "48 cm", "14 cm", "18 cm"],
+            correct: "24 cm"
         },
         {
-            question: "Organ mana yang berfungsi memompa darah ke seluruh tubuh?",
-            answers: ["Paru-paru", "Hati", "Jantung", "Ginjal"],
-            correct: "Jantung"
+            question: "Jika sebuah bilangan dikurangi 15 hasilnya adalah 25. Berapakah bilangan tersebut?",
+            answers: ["10", "30", "40", "50"],
+            correct: "40"
         },
         {
-            question: "Apa elemen kimia dengan simbol 'O'?",
-            answers: ["Emas", "Oksigen", "Helium", "Besi"],
-            correct: "Oksigen"
+            question: " Urutkan bilangan berikut dari yang terkecil hingga terbesar: 125,521,215,512?",
+            answers: ["125, 215, 512, 521", "125, 521, 215, 512", "521, 512, 215, 125", "215, 125, 512, 521"],
+            correct: "125, 215, 512, 521"
         },
         {
-            question: "Kapan proklamasi kemerdekaan Indonesia?",
-            answers: ["17 Agustus 1945", "28 Oktober 1928", "1 Juni 1945", "10 November 1945"],
-            correct: "17 Agustus 1945"
+            question: "Pada pukul berapa jarum jam pendek dan jarum jam panjang menunjukkan arah yang sama (saling menumpuk)?",
+            answers: ["Pukul 06.00", "Pukul 12.00", "Pukul 03.00", "Pukul 09.00"],
+            correct: "Pukul 12.00"
         },
         {
-            question: "Berapa sisi dari sebuah heksagon?",
-            answers: ["4", "5", "6", "7"],
-            correct: "6"
+            question: "Berapakah hasil dari operasi hitung campuran: 10×(5−2)+7?",
+            answers: ["37", "30", "47", "13"],
+            correct: "37"
         },
         {
-            question: "Di benua mana Sungai Nil berada?",
-            answers: ["Asia", "Amerika", "Eropa", "Afrika"],
-            correct: "Afrika"
+            question: "48 buku akan dibagi rata kepada 6 siswa. Berapa banyak buku yang diterima setiap siswa?",
+            answers: ["6 buku", "8 buku", "7 buku", "9 buku"],
+            correct: "9 buku"
         },
         {
-            question: "Siapa penulis novel 'Laskar Pelangi'?",
-            answers: ["Andrea Hirata", "Tere Liye", "Pramoedya Ananta Toer", "Dewi Lestari"],
-            correct: "Andrea Hirata"
+            question: "Sebuah persegi panjang memiliki panjang 10 cm dan lebar 5 cm. Berapakah keliling persegi panjang tersebut?",
+            answers: ["20 cm", "15 cm", "50 cm", "30 cm"],
+            correct: "30 cm"
         },
         {
-            question: "Berapa hari dalam setahun kabisat?",
-            answers: ["365", "366", "364", "367"],
-            correct: "366"
+            question: "Paman membeli 3 kg apel dan 200 gram anggur. Berapakah total berat belanjaan Paman dalam satuan gram?",
+            answers: ["3200 gram", "5000 gram", "320 gram", "2300 gram"],
+            correct: "3200 gram"
         }
     ];
 
