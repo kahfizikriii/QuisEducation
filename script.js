@@ -18,54 +18,54 @@ document.addEventListener('DOMContentLoaded', () => {
     // Data kuis contoh (ganti dengan data Anda sendiri)
     const questions = [
         {
-            question: "Jumlah maksimum elektron pada kulit M adalah?",
-            answers: ["2", "8", "18", "32"],
-            correct: "18"
+            question: "Organisme yang hanya dapat dilihat dengan mikroskop disebut?",
+            answers: ["Hewan", "Tumbuhan", "Mikroorganisme", "Vertebrata"],
+            correct: "Mikroorganisme"
         },
         {
-            question: "Elektron valensi adalah?",
-            answers: ["Elektron yang ada di kulit pertama", "Elektron yang ada di kulit terdalam", "Elektron yang ada di kulit terluar", "emua elektron dalam atom"],
-            correct: "Elektron yang ada di kulit terluar"
+            question: "Tempat berlangsungnya fotosintesis pada tumbuhan adalah?",
+            answers: ["Akar", "Daun", "Batang", "Bunga"],
+            correct: "Daun"
         },
         {
-            question: "Unsur dengan nomor atom 10 memiliki konfigurasi elektron?",
-            answers: ["2, 8", "2, 8, 1", "2, 6", "2, 8, 2"],
-            correct: "2, 8,"
+            question: "Berikut ini yang termasuk hewan vertebrata adalah?",
+            answers: ["Cacing", "Udang", "Ikan", "Serangga"],
+            correct: "Ikan"
         },
         {
-            question: "Unsur dengan konfigurasi elektron 2, 8, 7 adalah?",
-            answers: ["Oksigen", "Klor", "Fluorin", "Natrium"],
-            correct: "Klor"
+            question: "Manusia bernapas dengan menggunakan?",
+            answers: ["Insang", "Trakea", "Kulit", "Paru-paru"],
+            correct: "Paru-paru"
         },
         {
-            question: " Konfigurasi elektron dari unsur natrium (Z = 11) adalah?",
-            answers: ["2, 8, 1", "2, 8, 2", "2, 7, 2", "2, 9"],
-            correct: "2, 8, 1"
+            question: " Proses perubahan hewan dari larva hingga dewasa disebut?",
+            answers: ["Metamorfosis", "Respirasi", "Fotosintesis", "Transpirasi"],
+            correct: "Metamorfosis"
         },
         {
-            question: "Unsur dengan konfigurasi elektron 2, 8, 2 terletak pada periode?",
-            answers: ["1", "2", "3", "4"],
-            correct: "3"
+            question: "Bagian darah yang berfungsi mengangkut oksigen adalah?",
+            answers: ["Plasma darah", "Trombosit", "Eritrosit", "Leukosit"],
+            correct: "Eritrosit"
         },
         {
-            question: "Unsur dengan konfigurasi elektron 1s² 2s² 2p⁶ adalah?",
-            answers: ["Oksigen", "Neon", "Fluorin", "Natrium"],
-            correct: "Neon"
+            question: "Proses pengeluaran zat sisa metabolisme dari tubuh disebut?",
+            answers: ["Respirasi", "Ekskresi", "Pencernaan", "Sirkulasi"],
+            correct: "Ekskresi"
         },
         {
-            question: "Jika suatu unsur memiliki konfigurasi elektron 2, 8, 8, 1 maka nomor atomnya adalah?",
-            answers: ["17", "18", "19", "20"],
-            correct: "19"
+            question: "Tumbuhan yang berakar serabut biasanya dimiliki ole?",
+            answers: ["Tumbuhan dikotil", "Tumbuhan monokotil", "Tumbuhan berkayu", "Tumbuhan menjalar"],
+            correct: "Tumbuhan monokotil"
         },
         {
-            question: "Unsur dengan elektron valensi 6 termasuk golongan?",
-            answers: ["IA", "IVA", "VIA", "VIIA"],
-            correct: "VIA"
+            question: "Berikut ini yang termasuk simbiosis mutualisme adalah?",
+            answers: ["Tali putri dengan inangnya", "Bunga dengan kupu-kupu", "Cacing pita dengan manusia", "Benalu dengan mangga"],
+            correct: "Bunga dengan kupu-kupu"
         },
         {
-            question: "Unsur dengan nomor atom 20 memiliki konfigurasi elektron?",
-            answers: ["2, 8, 8, 2", "2, 8, 8, 1", "2, 8, 2", "2, 8, 18"],
-            correct: "2, 8, 8, 2"
+            question: "Alat kelamin jantan pada bunga disebut?",
+            answers: ["Putik", "Mahkota", "Kelopak", "Benang sari"],
+            correct: "Benang sari"
         }
     ];
 
