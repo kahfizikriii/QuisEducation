@@ -18,54 +18,54 @@ document.addEventListener('DOMContentLoaded', () => {
     // Data kuis contoh (ganti dengan data Anda sendiri)
     const questions = [
         {
-            question: "Berapakah hasil dari 245 + 138?",
-            answers: ["393", "483", "383", "372"],
-            correct: "383"
+            question: "Organisme yang hanya dapat dilihat dengan mikroskop disebut?",
+            answers: ["Hewan", "Tumbuhan", "Mikroorganisme", "Vertebrata"],
+            correct: "Mikroorganisme"
         },
         {
-            question: "Pak Ali memiliki 5 kotak pensil. Setiap kotak berisi 12 pensil. Berapakah jumlah total pensil Pak Ali?",
-            answers: ["60", "72", "17", "50"],
-            correct: "60"
+            question: "Tempat berlangsungnya fotosintesis pada tumbuhan adalah?",
+            answers: ["Akar", "Daun", "Batang", "Bunga"],
+            correct: "Daun"
         },
         {
-            question: "Sebuah segitiga memiliki panjang sisi a=6 cm, b=8 cm, dan c=10 cm. Berapakah keliling segitiga tersebut?",
-            answers: ["24 cm", "48 cm", "14 cm", "18 cm"],
-            correct: "24 cm"
+            question: "Berikut ini yang termasuk hewan vertebrata adalah?",
+            answers: ["Cacing", "Udang", "Ikan", "Serangga"],
+            correct: "Ikan"
         },
         {
-            question: "Jika sebuah bilangan dikurangi 15 hasilnya adalah 25. Berapakah bilangan tersebut?",
-            answers: ["10", "30", "40", "50"],
-            correct: "40"
+            question: "Manusia bernapas dengan menggunakan?",
+            answers: ["Insang", "Trakea", "Kulit", "Paru-paru"],
+            correct: "Paru-paru"
         },
         {
-            question: " Urutkan bilangan berikut dari yang terkecil hingga terbesar: 125,521,215,512?",
-            answers: ["125, 215, 512, 521", "125, 521, 215, 512", "521, 512, 215, 125", "215, 125, 512, 521"],
-            correct: "125, 215, 512, 521"
+            question: " Proses perubahan hewan dari larva hingga dewasa disebut?",
+            answers: ["Metamorfosis", "Respirasi", "Fotosintesis", "Transpirasi"],
+            correct: "Metamorfosis"
         },
         {
-            question: "Pada pukul berapa jarum jam pendek dan jarum jam panjang menunjukkan arah yang sama (saling menumpuk)?",
-            answers: ["Pukul 06.00", "Pukul 12.00", "Pukul 03.00", "Pukul 09.00"],
-            correct: "Pukul 12.00"
+            question: "Bagian darah yang berfungsi mengangkut oksigen adalah?",
+            answers: ["Plasma darah", "Trombosit", "Eritrosit", "Leukosit"],
+            correct: "Eritrosit"
         },
         {
-            question: "Berapakah hasil dari operasi hitung campuran: 10×(5−2)+7?",
-            answers: ["37", "30", "47", "13"],
-            correct: "37"
+            question: "Proses pengeluaran zat sisa metabolisme dari tubuh disebut?",
+            answers: ["Respirasi", "Ekskresi", "Pencernaan", "Sirkulasi"],
+            correct: "Ekskresi"
         },
         {
-            question: "48 buku akan dibagi rata kepada 6 siswa. Berapa banyak buku yang diterima setiap siswa?",
-            answers: ["6 buku", "8 buku", "7 buku", "9 buku"],
-            correct: "9 buku"
+            question: "Tumbuhan yang berakar serabut biasanya dimiliki ole?",
+            answers: ["Tumbuhan dikotil", "Tumbuhan monokotil", "Tumbuhan berkayu", "Tumbuhan menjalar"],
+            correct: "Tumbuhan monokotil"
         },
         {
-            question: "Sebuah persegi panjang memiliki panjang 10 cm dan lebar 5 cm. Berapakah keliling persegi panjang tersebut?",
-            answers: ["20 cm", "15 cm", "50 cm", "30 cm"],
-            correct: "30 cm"
+            question: "Berikut ini yang termasuk simbiosis mutualisme adalah?",
+            answers: ["Tali putri dengan inangnya", "Bunga dengan kupu-kupu", "Cacing pita dengan manusia", "Benalu dengan mangga"],
+            correct: "Bunga dengan kupu-kupu"
         },
         {
-            question: "Paman membeli 3 kg apel dan 200 gram anggur. Berapakah total berat belanjaan Paman dalam satuan gram?",
-            answers: ["3200 gram", "5000 gram", "320 gram", "2300 gram"],
-            correct: "3200 gram"
+            question: "Alat kelamin jantan pada bunga disebut?",
+            answers: ["Putik", "Mahkota", "Kelopak", "Benang sari"],
+            correct: "Benang sari"
         }
     ];
 
